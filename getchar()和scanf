@@ -1,3 +1,4 @@
 1.scanf()以Space、Enter、Tab结束一次输入，不会舍弃最后的回车符（即回车符会残留在缓冲区中）。 
 2.getchar()以Enter结束输入，也不会舍弃最后的回车符。 
 3.gets()以Enter结束输入（空格不结束），接受空格，会舍弃最后的回车符！
+scanf遇到 回车(enter)，空格，TAB 就会停止
