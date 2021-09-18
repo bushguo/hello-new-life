@@ -3,3 +3,22 @@
 3.gets()以Enter结束输入（空格不结束），接受空格，会舍弃最后的回车符！
 scanf遇到 回车(enter)，空格，TAB 就会停止
 s 读取一连串字符，直到遇到空白字符结束
+
+getchar()用法1：
+#include <stdio.h>
+
+int main()
+{
+        int count = 0;
+
+        printf("请随意一个英文句子：");
+
+        while (getchar() != '\n')
+        {
+                count = count + 1;
+        }
+
+        printf("你总共输入了%d个字符！\n", count);
+
+        return 0;
+}
