@@ -34,3 +34,4 @@ int main()
 
         return 0;
 }
+//不适用scanf是因为scanf遇到空格就停止
